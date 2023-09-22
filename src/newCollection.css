@@ -1,0 +1,22 @@
+.novaColecao{
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.novaColecao img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.colecaoDesc{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

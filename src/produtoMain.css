@@ -1,0 +1,42 @@
+.produtoImg{
+    width: 389px;
+    height: 389px;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.produtoImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.produtoImg:hover{
+    transform: scale(1.05);
+}
+
+.produtoBotao{
+    box-sizing: border-box;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.produtoBotao a{
+    display: none;
+}
+
+.produtoImg:hover .produtoBotao a{
+    display: block;
+}
+
+.produtoImg:hover .produtoBotao h2{
+    display: none;
+}
+
+.produtoBotao h2{
+    color: #FFF;
+    font: 400 1.2rem "Poppins", sans-serif;
+}
+

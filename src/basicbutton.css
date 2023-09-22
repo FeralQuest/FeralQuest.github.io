@@ -1,0 +1,12 @@
+.botaoLink{
+    padding: 8px;
+    background-color: #FFF;
+    border: 1px solid #151515;
+    font: 400 1rem "Poppins", sans-serif;
+    letter-spacing: 1px;
+    transition: all .2s ease-in-out;
+}
+
+.botaoLink:hover{
+    transform: scale(1.1);
+}

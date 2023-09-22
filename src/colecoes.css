@@ -1,0 +1,29 @@
+.colecoes{
+    position: relative;
+    width: 100%;
+}
+
+.colecoesImg{
+    max-width: 100%;
+    height: 80vh;
+    display: block;
+    margin: 0 auto;
+}
+
+.colecoesImg img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.colecoesInfo{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
